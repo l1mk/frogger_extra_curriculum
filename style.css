@@ -3,8 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     height: 360px;
-    width: 360pxpx;
+    width: 360px;
     margin: auto;
+    background-image: url('images/neutral.png');
+    background-size: cover;
+
 }
 
 .grid div {
@@ -13,13 +16,34 @@
 }
 
 .ending-block{
-    background-color: red;
+    background-image: url('images/player.png');
+    background-size: cover;
 }
 
 .starting-block{
-    background-color: blue;
+    background-color: red;
 }
 
 .frog{
-    background-color: green;
+    background-image: url('images/frog.png');
+    background-size: cover;
 }
+
+.c1 {
+    background-image: url('images/tauro.png');
+    background-size: cover;
+}
+
+.c2, .c3 {
+    background-image: url('images/road.png');
+    background-size: cover;
+}
+
+.l1, .l2, .l3 {
+    background-image: url('images/log.png');
+    background-size: cover;
+}
+
+.l4, .l5 {
+    background-image: url('images/lake.png');
+    background-size: cover;
