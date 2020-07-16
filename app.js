@@ -9,6 +9,8 @@ const result = document.querySelector('#result')
 const top = document.querySelector('#top')
 const startBtn = document.querySelector('#start-pause')
 const resetBtn = document.querySelector('#reset')
+const instBtn = document.querySelector('#inst-Btn')
+const instruction = document.querySelector('#instructions')
 const width = 9
 let currentIndex = 76
 let currentTime = 20
@@ -197,6 +199,15 @@ function reset(){
     document.addEventListener('keyup', moveFrog)
     startBtn.innerHTML = 'Start'
 }
+    instBtn.addEventListener('click', () =>{
+       if (instBtn.innerHTML === 'Instructions'){
+        instBtn.innerHTML = 'Hide'
+        instruction.style.display = 'block'
+       } else if (instBtn.innerHTML === 'Hide'){
+        instBtn.innerHTML = 'Instructions'
+        instruction.style.display = 'none'  
+       }
+    })
 
     resetBtn.addEventListener('click', reset)
     startBtn.addEventListener('click', () =>{
