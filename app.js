@@ -146,6 +146,7 @@ function win(){
             top.innerHTML = `Finish in ${topScore} Seconds by Player1`
         }
         document.removeEventListener('keyup', moveFrog)
+        alert('Good Job')
     }
 }
 //lose condition
