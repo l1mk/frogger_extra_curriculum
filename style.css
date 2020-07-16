@@ -7,7 +7,17 @@
     margin: auto;
     background-image: url('images/neutral.png');
     background-size: cover;
+}
 
+.border {
+    border: 1p solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    background-image: url('images/neutral.png');
+    background-size: cover;
 }
 
 .grid div {
@@ -21,11 +31,7 @@
 }
 
 .starting-block{
-    background-color: red;
-}
-
-.frog{
-    background-image: url('images/frog.png');
+    background-image: url('images/pokeball.png');
     background-size: cover;
 }
 
@@ -47,3 +53,9 @@
 .l4, .l5 {
     background-image: url('images/lake.png');
     background-size: cover;
+}
+
+.frog{
+    background-image: url('images/frog.png');
+    background-size: cover;
+}
